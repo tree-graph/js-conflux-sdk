@@ -358,7 +358,6 @@ format.block = Parser({
   size: format.uInt,
   timestamp: format.uInt,
   gasLimit: format.bigUInt,
-  difficulty: format.bigUInt,
   transactions: [(format.transaction).or(format.txHash)],
 });
 
