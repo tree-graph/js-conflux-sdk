@@ -342,7 +342,6 @@ format.transaction = Parser({
   v: format.uInt,
   transactionIndex: format.uInt.or(null),
   status: format.uInt.or(null), // XXX: might be remove in rpc returned
-  storageLimit: format.bigUInt,
   chainId: format.uInt,
   epochHeight: format.uInt,
 });
